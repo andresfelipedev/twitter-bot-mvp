@@ -1,0 +1,51 @@
+# 👉 Entorno virtual de Python
+venv/
+
+# 👉 Archivos de configuración privada
+.env
+
+# 👉 Compilados de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 👉 Archivos de log o temporales
+*.log
+*.tmp
+
+# 👉 Archivos de bases de datos o backups
+*.sqlite3
+*.db
+*.bak
+
+# 👉 Archivos de entrada/salida no controlados
+input/*.txt
+output/
+
+# 👉 Configuraciones de IDEs/editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 👉 Sistema operativo
+.DS_Store
+Thumbs.db
+
+# 👉 Archivos de Docker locales
+*.tar
+*.img
+
+# 👉 Otros archivos de control opcionales
+*.envrc
+.env.*
+
+# 👉 Notas personales o de desarrollo
+*.md~
+*.swp
+
+# 👉 Excluir imágenes de prueba o documentación opcional
+*.png
+*.jpg
+*.jpeg
+*.gif
