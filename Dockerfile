@@ -1,14 +1,17 @@
 # Utilizar una imagen oficial de Python
 FROM python:3.11-slim
 
-# Establecer el directorio de trabajo dentro del contenedor
+# Establecer el directorio de trabajo
 WORKDIR /app
 
-# Copiar los archivos del proyecto al contenedor
+# Copiar los archivos al contenedor
 COPY . .
 
-# Instalar las dependencias
+# Establecer PYTHONPATH para que reconozca los módulos
+ENV PYTHONPATH="${PYTHONPATH}:/app"
+
+# Instalar dependencias
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Comando para correr el bot
+# Comando para correr la app
 CMD ["python", "scripts/run_bot.py"]
