@@ -1,5 +1,9 @@
 # scripts/run_bot.py
 
+import os
+print("🪪 UID:", os.getuid())
+print("📁 Working dir:", os.getcwd())
+
 from app.tweet_generator import create_tweets_from_input
 from app.scheduler import schedule_tweets, run_scheduler
 
