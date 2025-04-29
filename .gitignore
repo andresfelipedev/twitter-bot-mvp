@@ -19,7 +19,7 @@ __pycache__/
 *.bak
 
 # 👉 Archivos de entrada/salida no controlados
-input/*.txt
+# input/*.txt   ← lo comentamos para que no ignore el .txt principal
 output/
 
 # 👉 Configuraciones de IDEs/editor

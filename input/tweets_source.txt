@@ -1,0 +1,125 @@
+Empezando
+
+Desde que tengo memoria, he estado involucrado en negocios variados. Comencé vendiendo productos digitales, luego administré un canal de YouTube donde hacía tutoriales de fotografía, y más tarde dirigí tiendas de dropshipping.
+
+Después de dejar la universidad, donde estudié física y astrofísica, comencé a trabajar como comprador de medios freelance. Lo odiaba absolutamente. Así que renuncié y pasé seis meses desempleado, tratando de aprender a construir aplicaciones.
+
+Descubrí diversas herramientas de codificación con IA y plataformas no-code como Bubble, donde construí mi primera app, ChatIQ.ai. En los primeros dos meses después del lanzamiento, alcancé alrededor de £7.5k ($9.7k) en ingresos recurrentes mensuales (MRR).
+
+Mi mayor desafío era que no podía construir funciones tan rápido como mis competidores. Era completamente nuevo en esto y no tenía experiencia técnica. Pronto, los clientes comenzaron a abandonar ChatIQ y a cambiarse a competidores.
+
+Para intentar mantenerme al día, comencé a usar GPT-4 para escribir APIs en Python y crear extensiones que se integraran con mi app en Bubble. Funcionaban, pero eran lentas y muy inestables.
+
+Eventualmente, me di cuenta de que necesitaba construir aplicaciones utilizando código full-stack. El problema era que no quería pasar meses aprendiendo a programar desde cero.
+
+Aprendiendo a construir con IA
+
+Debido a lo que había logrado con ChatIQ, pensé que podía usar la IA para programar por mí. Así que aprendí a construir aplicaciones con IA y Next.js, simplemente creando muchos microproductos SaaS para ganar experiencia. Ahora sé cómo hacer que la IA escriba código seguro y eficiente para entornos de producción.
+
+Mientras aprendía esto, mi hermano gemelo, Matthew, se me acercó y dijo: “Unámonos. Yo manejo el marketing y tú construyes el producto”.
+
+Nuestro objetivo: Construir y vender un SaaS en menos de 90 días.
+
+$12k en 4 semanas
+
+Así comenzamos a trabajar en TrendFeed.app, una herramienta que agrega noticias virales y de tendencia, y genera contenido de formato corto a partir de esas fuentes.
+
+Para principiantes, la forma más efectiva de ganar tracción es aprovechar las noticias virales para generar visualizaciones. Eso es exactamente para lo que fue diseñado TrendFeed: agrega artículos de noticias, los analiza para evaluar su viralidad y ofrece herramientas para automatizar la creación de contenido. Sabíamos que si ayudábamos a los usuarios a crear videos rápidamente y ver resultados inmediatos, la herramienta despegaría. Así que TrendFeed fue construido para facilitar y democratizar la creación de contenido.
+
+No quería que TrendFeed fuera otra herramienta genérica de creación de videos con IA. Hay cientos allá afuera, y la mayoría no ofrece nada único. En cambio, nos enfocamos en analizar fuentes creíbles, usar IA para identificar tendencias virales, compilar activos visuales de esas historias, y convertirlos en videos de alta calidad que la gente realmente quiere ver en Instagram y TikTok.
+
+Nos dimos una semana para lanzar. Logré construir un MVP completamente con código generado por IA en solo cuatro días. Matthew se dedicó a generar tráfico a una lista de espera usando su Instagram, una lista de correos, y nuevas cuentas de TrendFeed en Instagram y TikTok, mientras yo impulsaba algo de tráfico desde mi propio Instagram.
+
+Lanzamos el 27 de febrero con un webinar, vendiendo licencias de por vida para TrendFeed, y logramos generar £5.5k el día del lanzamiento.
+
+Desde entonces, hemos estado creciendo las redes sociales de TrendFeed para no depender de nuestras marcas personales. He renovado el producto, agregado muchas nuevas funciones, y acabamos de comenzar a cobrar suscripciones anuales.
+
+En nuestras primeras cuatro semanas, generamos £9,222 ($12k) en ingresos.
+
+No solo otra app "vibe-coded"
+
+Quería asegurarme de que esta no fuera otra app básica que se rompe en producción. Durante el desarrollo, me enfoqué en implementar medidas de seguridad y guiar a los modelos de IA para estructurar correctamente el producto. Ninguna línea de código fue escrita a mano, pero aún así necesitaba tener claro cómo estructurar la aplicación para que todo funcionara.
+
+Todavía queda mucho por hacer, pero nuestros primeros usuarios han sido pacientes y nos han dado retroalimentación muy valiosa.
+
+Cuando comencé a construir aplicaciones, usaba Bubble. Era excelente para aprender sobre SaaS y lanzar rápido, pero era lento, inestable y no se posee el código.
+
+TrendFeed está completamente codificado con IA. Usamos Next.js, React (con ShadCN para UI), Supabase para la base de datos y Vercel para el despliegue. Nuestro stack está evolucionando mientras integramos Clerk para autenticación de usuarios y Whop para pagos.
+
+Como esta app está completamente generada con IA, sé que habrá desarrolladores curiosos que intentarán hackearla. Por eso elegimos Clerk, por sus fuertes características de seguridad. También por eso dedico entre el 20% y el 40% de mi tiempo a investigar y aplicar medidas de seguridad en TrendFeed.
+
+Lanzar a una audiencia
+
+Nuestro lanzamiento fue muy simple. Sabíamos que venderíamos a través de un evento de ventas en vivo (webinar), y solo necesitábamos conseguir prospectos.
+
+Hace tres años, cuando lancé ChatIQ, utilicé TikTok, publicando anuncios cortos que mostraban lo que hacía el producto. Eso me permitió aprovechar la tendencia de ChatGPT y alcanzar £7.5k en MRR sin gastar en marketing. Así que sabía que para cualquier nuevo lanzamiento, necesitaría una audiencia. Y pasé dos años construyéndola.
+
+Hoy tengo 50k seguidores en Instagram, 30k en TikTok y 4k en YouTube. De ahí provinieron los leads para el lanzamiento de TrendFeed.
+
+Sin embargo, queremos eventualmente vender TrendFeed, así que no podemos escalarlo usando nuestras marcas personales. Después del lanzamiento, trasladamos todo el marketing a cuentas nuevas de TrendFeed.
+
+Eso causó una caída en los ingresos, ligada directamente a la caída en visualizaciones. Pero esto escalará a medida que las cuentas crezcan. Nuestro embudo de ventas ya está optimizado; solo necesitamos más tráfico. Planeamos escalar usando influencers, creadores de contenido y eventualmente anuncios pagados.
+
+La consistencia, aunque cliché, es la única estrategia garantizada para lograr crecimiento a largo plazo.
+
+Usa un embudo con webinar
+
+Nuestros ingresos de lanzamiento no habrían sido posibles sin un embudo de webinars. Hemos perfeccionado el proceso tras años de práctica, inspirado inicialmente por el libro Expert Secrets de Russell Brunson.
+
+Aunque los webinars son difíciles. Solo en los últimos 12 meses he creado más de 35 versiones distintas para mi negocio aparte de TrendFeed. Cada uno tiene cerca de 300 diapositivas, lo cual representa muchísimo trabajo.
+
+Para principiantes, bastaría con hacer demostraciones semanales en vivo de su app, captar prospectos y guiarlos a través del problema que su SaaS soluciona.
+
+Tener apenas 20 personas en una demo puede aumentar drásticamente las tasas de conversión, ya que permite resolver objeciones en tiempo real y construir confianza.
+
+Estamos en beta cerrada para controlar el proceso de venta mediante webinars. No se puede probar TrendFeed directamente.
+
+Aunque al principio muchos no creían que TrendFeed fuera un producto real, planeamos liberar un plan gratuito que ofrezca cinco créditos para probar la app.
+
+No pierdas el control de la venta
+
+Nuestro lanzamiento vendió 22 licencias de por vida de £249 cada una, generando más de £5,500 con apenas 250 leads y 400 clics.
+
+Comparación rápida:
+
+    Embudo controlado: 400 clics = £5,500 en ingresos.
+
+    Embudo SaaS tradicional: 400 clics = £40/mes.
+
+Con un embudo tradicional, habríamos necesitado 52,000 clics para igualar nuestros ingresos.
+
+Por eso, al iniciar, no envíes tráfico a una página pasiva. Cada lead cuenta. Si alguien no queda satisfecho, puedes reembolsarlo.
+
+Actualmente todo nuestro marketing proviene de cuentas de Instagram y TikTok sin mostrar nuestras caras. El tráfico nuevo sigue convirtiendo igual de bien que durante el lanzamiento.
+
+Vende la oferta
+
+Asegúrate de que tu contenido venda la oferta, no el producto. No hagas videos que parezcan anuncios. En vez de eso:
+
+    Presenta el problema que tu app resuelve.
+
+    Haz que el espectador se identifique.
+
+    Ofrece un lead magnet, como un entrenamiento gratuito.
+
+Guía esos leads a tu demo en vivo o evento de ventas.
+
+Concéntrate en la distribución
+
+Muchos lanzan productos al vacío y sobre-ingenian todo.
+
+Tu producto no necesita ser perfecto al inicio. Lo importante es la distribución: construir un embudo que convierta.
+
+El 70% de tu tiempo debe ser marketing y ventas, no construcción de funciones para usuarios que no existen.
+
+Y sobre todo, ten paciencia. Escalamos TrendFeed a £9k el primer mes, pero fue gracias a diez años de aprendizaje.
+
+¿Qué sigue?
+
+Queremos que TrendFeed agregue £20k en ARR cada mes de manera consistente.
+
+Nuestro objetivo inicial era salir en 90 días, siendo uno de los primeros SaaS construidos completamente con IA y vendidos por seis cifras en menos de 90 días. Pero si seguimos escalando bien, podríamos conservarlo.
+
+Seguiré construyendo herramientas SaaS y me enfocaré aún más en la programación asistida por IA. No veo un futuro donde el desarrollo de apps no esté completamente democratizado por IA.
+
+Continuaré compartiendo mi proceso mientras aprendo full-stack y uso IA para construir, además de empezar a experimentar con agentes para automatizar mi flujo de trabajo.
