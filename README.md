@@ -3,7 +3,7 @@
 
 Este proyecto es un **bot automatizado de Twitter** que:
 - Lee un archivo `.txt` de entrada
-- Usa **OpenAI (GPT-3.5)** para generar 15 tweets breves
+- Usa **OpenAI (gpt-3.5-turbo)** para generar 15 tweets breves
 - Publica automáticamente 5 tweets diarios en horarios aleatorios de 7:00 AM a 9:00 PM
 - Está desplegado en **Render.com** usando **Docker**
 
@@ -34,10 +34,13 @@ twitter-bot-mvp/
 │   └── scheduler.py
 │
 ├── input/
-│   └── tweets_source.txt
+│   ├── tweets_source.txt
+│   ├── prompt_instructions.txt
+│   └── prompt_style.txt
 │
 ├── scripts/
-│   └── run_bot.py
+│   ├── run_bot.py
+│   └── test_full_flow.py
 │
 ├── tests/          # (Pendiente de implementar unit tests)
 ├── .env.example    # (Ejemplo de variables de entorno)
@@ -82,11 +85,30 @@ TWITTER_ACCESS_TOKEN=tu_access_token
 TWITTER_ACCESS_TOKEN_SECRET=tu_access_secret
 ```
 
-5. Ejecuta el bot:
+5. Ejecuta una prueba completa de flujo local:
+
+```bash
+python scripts/test_full_flow.py
+```
+
+✅ Esto generará los 15 tweets en consola sin publicarlos aún en Twitter.
+
+6. Cuando estés listo para producción:
 
 ```bash
 python scripts/run_bot.py
 ```
+
+---
+
+## 📋 Sobre los prompts externos
+
+Los mensajes enviados a OpenAI están externalizados en estos archivos:
+
+- `input/prompt_instructions.txt`: Instrucciones detalladas para el análisis de ideas.
+- `input/prompt_style.txt`: Estilo narrativo (ejemplo: AIDA + Storytelling + tono emocional).
+
+✅ Para actualizar el tono o el estilo, simplemente modifica estos archivos. No es necesario tocar el código.
 
 ---
 
@@ -106,4 +128,4 @@ Este proyecto está bajo la licencia [MIT](LICENSE).
 
 ---
 
-> **Desarrollado como un MVP limpio, escalable y listo para producción.** 🚀
+> **Desarrollado como un MVP limpio, modular y escalable para producción.** 🚀

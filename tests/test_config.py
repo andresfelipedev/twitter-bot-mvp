@@ -11,10 +11,35 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # scripts/test_twitter_client.py
 
-from app.twitter_client import create_twitter_client, post_tweet
+# scripts/test_full_flow.py
 
-client = create_twitter_client()
+from app.tweet_generator import create_tweets_from_input
 
-if client:
-    texto_de_prueba = "Este es un tweet de prueba generado automáticamente. 🚀"
-    post_tweet(client, texto_de_prueba)
+def main():
+    """
+    Ejecuta una prueba completa:
+    - Lee el archivo de entrada
+    - Genera los tweets
+    - Muestra los tweets generados
+    """
+
+    print("\n🚀 Iniciando prueba completa del bot...\n")
+
+    try:
+        tweets = create_tweets_from_input()
+
+        if not tweets:
+            print("⚠️ No se generaron tweets. Verifica tu conexión a OpenAI o el contenido del archivo de entrada.")
+            return
+
+        print(f"\n✅ Se generaron {len(tweets)} tweets:\n")
+        for idx, tweet in enumerate(tweets, start=1):
+            print(f"{idx}. {tweet}\n")
+
+        print("\n🎯 Flujo completo de generación de tweets ejecutado con éxito.\n")
+
+    except Exception as e:
+        print(f"❌ Error durante la ejecución de la prueba: {e}")
+
+if __name__ == "__main__":
+    main()
